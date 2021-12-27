@@ -13,7 +13,12 @@ import 'fluttermojiController.dart';
 class FluttermojiCircleAvatar extends StatelessWidget {
   final double radius;
   final Color? backgroundColor;
-  FluttermojiCircleAvatar({Key? key, this.radius = 75.0, this.backgroundColor})
+  final String testString;
+  FluttermojiCircleAvatar(
+      {Key? key,
+      this.radius = 75.0,
+      this.backgroundColor,
+      required this.testString})
       : super(key: key);
 
   @override
